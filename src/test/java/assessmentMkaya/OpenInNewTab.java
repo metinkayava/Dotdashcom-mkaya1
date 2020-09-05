@@ -27,7 +27,7 @@ public class OpenInNewTab {
 //        Driver.closeDriver();
     }
 
-//Open in New Tab: http://localhost:7080/windows Test Link Opens in new tab.
+    //Task: Open in New Tab: http://localhost:7080/windows Test Link Opens in new tab.
     @Test
     public void openInNewTab(){
 
