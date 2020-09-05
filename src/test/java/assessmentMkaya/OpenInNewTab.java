@@ -26,6 +26,7 @@ public class OpenInNewTab {
         Thread.sleep(2000);
 //        Driver.closeDriver();
     }
+
 //Open in New Tab: http://localhost:7080/windows Test Link Opens in new tab.
     @Test
     public void openInNewTab(){
