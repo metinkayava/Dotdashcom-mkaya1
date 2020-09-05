@@ -45,10 +45,13 @@ public class DropdownTest {
         for (WebElement option : options) {
             System.out.println(option.getText());
         }
+        options.get(0).click();
         String optionZero = options.get(0).getText();
         System.out.println("optionZero = " + optionZero);
+        options.get(1).click();
         String optionOne = options.get(1).getText();
         System.out.println("optionOne = " + optionOne);
+        options.get(2).click();
         String optionTwo = options.get(2).getText();
         System.out.println("optionTwo = " + optionTwo);
 
